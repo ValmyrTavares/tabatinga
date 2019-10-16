@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- MENU -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/Main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Teste</h1>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" data-toggle="modal" data-target="#modalExemplo">Fale conosco</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <!-- CARROSSEL -->
+
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://1.bp.blogspot.com/-_7dCjD_ZiAo/XZtYhiNrdWI/AAAAAAAABks/NGnCdIj4ztg98ExH3ke2fevJy5fhjD7QwCLcBGAsYHQ/s1600/5f3b27a0-615e-453a-bfca-3a5845d1d2e9.jpg"
+                        class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block align-text-top">
+                        <h5>First slide label</h5>
+                        <p class="fonte-titulo">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://1.bp.blogspot.com/-ETZM3DX2cHU/XZtYbdPtQUI/AAAAAAAABjc/xH4jGKIaDl4KXUEwqZgUaN1YR3eiJqEvQCLcBGAsYHQ/s1600/3306de33-2c70-4511-bf37-13cbd8802f5d.jpg"
+                        class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p class="fonte-titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://1.bp.blogspot.com/-guKakZIvVfM/XZtUihEiHDI/AAAAAAAABcw/FTaAmdnLNJEuc0a17uQaP8JeDZeVI98fACLcBGAsYHQ/s1600/1d42679f-8965-4e06-b745-cd37181bd26c.jpg"
+                        class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5>Third slide label</h5>
+                        <p class="fonte-titulo">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src=https://2.bp.blogspot.com/-WcubrZX0V-M/XZtUprXUR3I/AAAAAAAABeU/6gcaT49mwyYLvsWYr020PBuC63lkHs4sQCLcBGAsYHQ/s1600/4afd4b03-8b0d-47ed-a079-39684dfe10cc.jpg"
+                        class="d-block w-100 imagem-carrossel" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p class="fonte-titulo">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="text-center">
+        <h2 class="fonte-titulo text-info pt-5">Ferias na praia</h2>
+        <p class="shadow-lg p-3 mb-5 bg-white rounded text-secondary pb-5">Na documentação, procuraremos por
+            "alignment", que
+            é
+            "alinhamento" em inglês, e selecionaremos "Text
+            alignment". Teremos que a classe utilizada para alinhamento centralizado de texto, por exemplo, é
+            text-center.
+        </p>
+    </div>
+
+    <!-- CARD -->
+
+
+    <section class="container">
+        <div class="row">
+            <div class=" text-center borda-card col-12 col-sm m-3" style="width: 18rem;">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-01-820x430.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Receita Mediterraneo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary cor-botao">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class=" text-center borda-card col-12 col-sm m-3" style="width: 18rem;">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-01-820x430.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Receita Mediterraneo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary cor-botao">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class=" text-center borda-card col-12 col-sm m-3" style="width: 18rem;">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-01-820x430.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Receita Mediterraneo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary cor-botao">Go somewhere</a>
+                </div>
+            </div>
+            <div class=" text-center borda-card col-12 col-sm m-3" style="width: 18rem;">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-01-820x430.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Receita Mediterraneo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary cor-botao">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img
+                src="https://1.bp.blogspot.com/-rdrrgkUhCDI/XZtYaQT-miI/AAAAAAAABjM/EKwYjhH-rOYe7FIAD_pJlit3PWuI0M0TQCLcBGAsYHQ/s1600/0f561e9d-136f-4cce-a000-834b01c1180d.jpg">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems, options);
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

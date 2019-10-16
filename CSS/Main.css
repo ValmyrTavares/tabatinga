@@ -1,0 +1,15 @@
+.imagem-carrossel{
+  object-fit: cover;
+height: 600px;
+
+}
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+   
+}
+.cor-botao{
+   background-color:red;
+  }
+.borda-card{
+ border: solid 1px black;
+}
